@@ -10,35 +10,36 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Microsoft Cloud',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Tutorials and tips for Microsoft Cloud products and services.  🚀🌈 
+        Get ready to explore, learn, and master the magic of Microsoft's cloud products and services with our supercharged tutorials and fabulous tips! Whether you're a tech wizard or a cloud-curious enthusiast, we've got you covered on your journey to cloud greatness. Let's soar together and unlock the full potential of the Microsoft Cloud!
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
+    title: 'AI',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        "Imagine giving a bunch of super-smart robots the power to think and learn just like humans do - that's AI, the brainy magic that lets machines handle tasks we used to think only we could! 🤖✨ From solving puzzles to chatting like a pro, AI brings the future right to our fingertips!"
+        <br></br>
+        Open AI, anno 2023
       </>
     ),
   },
+  {
+    title: 'Other',
+    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    description: (
+      <>
+        Mix of my hobbies; guitar 🎸 food 🍕🥗 audiophile and more! 
+      </>
+    ),
+  },
+
 ];
 
 function Feature({title, Svg, description}: FeatureItem) {
