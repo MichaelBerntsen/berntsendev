@@ -1,7 +1,7 @@
 ---
-slug: welcome
-title: Welcome
-authors: [slorber, yangshun]
+slug: Launch
+title: Launch
+authors: [berntsen]
 tags: [facebook, hello, docusaurus]
 ---
 

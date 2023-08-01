@@ -61,7 +61,7 @@ const config = {
   plugins: [
     [
       "@gracefullight/docusaurus-plugin-microsoft-clarity",
-      { projectId: "YOUR_PROJECT_ID" },
+      { projectId: "i8gilvrshd" },
     ],
   ],
 
@@ -80,9 +80,15 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'm365Sidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Microsoft 365',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'guitarSidebar',
+            position: 'right',
+            label: 'Guitar',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
