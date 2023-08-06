@@ -21,3 +21,20 @@ Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://
 - Add a [search bar](https://docusaurus.io/docs/search)
 - Find inspirations in the [Docusaurus showcase](https://docusaurus.io/showcase)
 - Get involved in the [Docusaurus Community](https://docusaurus.io/community/support)
+
+Here's a sentence with a footnote. [^1]
+
+[^1]: This is the footnote.
+
+term
+: definition
+
+Strikethrough	~~The world is flat.~~
+
+Task List	
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+
+
+

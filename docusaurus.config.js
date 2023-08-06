@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Berntsen dev',
-  tagline: 'Dinosaurs are cool',
+  title: 'berntsen.dev',
+  tagline: 'my little corner of the internet',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -41,15 +41,18 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/MichaelBerntsen/berntsendev/',
+          // editUrl:
+          //  'https://github.com/MichaelBerntsen/berntsendev/',
         },
         blog: {
           showReadingTime: true,
+          postsPerPage: 3,
+          blogSidebarCount: 'ALL',
+          blogSidebarTitle: 'All our posts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/MichaelBerntsen/berntsendev/',
+          // editUrl:
+          //  'https://github.com/MichaelBerntsen/berntsendev/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -72,7 +75,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Berntsen dev',
+        title: 'Berntsen.dev',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
