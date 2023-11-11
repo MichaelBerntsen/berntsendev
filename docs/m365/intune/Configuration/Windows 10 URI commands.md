@@ -4,7 +4,7 @@ sidebar_label: Windows 10 URI commands
 sidebar_position: 1
 ---
 
-# windows 10 URI commands
+# Windows 10 URI commands
 
 | Page                          | Command (URI)                                       |
 |-------------------------------|-----------------------------------------------------|
